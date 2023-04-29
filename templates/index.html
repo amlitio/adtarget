@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Personalized Ad Recommendations</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <h1>Enter Your Information</h1>
+    <form method="POST">
+        <label>Age: <input type="number" name="age"></label><br>
+        <label>Daily Internet Usage: <input type="number" step="0.01" name="daily_internet_usage"></label><br>
+        <label>Time Spent on Site: <input type="number" step="0.01" name="time_spent_on_site"></label><br>
+        <label>Gender:
+            <select name="gender">
+                <option value="0">Female</option>
+                <option value="1">Male</option>
+            </select>
+        </label><br>
+        <input type="submit" value="Get Recommendations">
+    </form>
+</body>
+</html
