@@ -1,6 +1,7 @@
 # personalized_ad_recommendation
 
 Personalized Ad Recommendation System  (twirl~~ still in template form)
+
 This repository contains a personalized ad recommendation system built using Python, Flask, scikit-learn, and scikit-surprise. The system employs collaborative filtering, content-based filtering, and a RandomForest classifier to provide users with personalized ad recommendations based on their age, daily internet usage, time spent on the site, and gender.
 
 -Features
