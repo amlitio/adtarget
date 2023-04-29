@@ -14,7 +14,7 @@ RandomForest classifier for predicting user clicks
 1 Clone the repository:
 Copy code
 
-git clone https://github.com/amlitio/adtarget.git
+git clone https://github.com/amlitio/personalized_ad_recommendation.git
 
 
 2 Change to the cloned directory:
